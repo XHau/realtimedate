@@ -1,0 +1,43 @@
+{
+    "name": "xhau/realtimedate",
+    "description": "Thời Gian Thực Cho Diễn Đàn Của Bạn",
+    "keywords": [
+        "extension",
+        "xhau", "realtime"
+    ],
+    "type": "xhau-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/xhau/realtimedate/issues",
+        "source": "https://github.com/xhau/realtimedate",
+        "forum": "https://vn2s.net"
+    },
+    "homepage": "https://vn2s.net",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://unghotoi.com/xhau"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Hậu Nguyễn",
+            "email": "admin@vn2s.net",
+            "homepage": "https://vn2s.net"
+        }
+    ],
+    "require": {
+        "xhau/core": "*"
+    },
+    "extra": {
+        "xhau-extension": {
+            "title": "VN RealTime",
+            "category": "by hadpro",
+            "icon": {
+                "name": "fad fa-clock",
+                "backgroundColor": "#ffff00",
+                "color": "#fff"
+            }
+        }
+    }
+}
